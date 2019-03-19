@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 1.4em;
+    
+}
+
+.logo, h1 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+} */
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
