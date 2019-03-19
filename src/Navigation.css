@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.logo{
+    color: blue;
+}
