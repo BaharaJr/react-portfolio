@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import nigga from './img/blove';
 
 
 class Resume extends Component {
@@ -13,9 +14,10 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://unsplash.com/photos/DtDlVpy-vvQ"
+                src={nigga}
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '200px', borderRadius: '50%',
+                width: '190px'}}
                  />
             </div>
 
