@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Background from './img/be';
-import blov from './img/img';
-
 const blove = {
   backgroundImage: `url( ${Background} )`,
   height: '100vh',
@@ -17,12 +15,6 @@ class Landing extends Component {
       <div style={blove}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
-              src={blov}
-              alt="avatar"
-              className="avatar-img"
-              />
-
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
