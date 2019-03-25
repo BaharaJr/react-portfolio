@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Background from './img/be';
+
 const blove = {
   backgroundImage: `url( ${Background} )`,
-  height: '100vh',
+  height: '90vh',
   backgroundSize: 'cover',
 }
 
-//const logo = require('./img/blove');
 
 class Landing extends Component {
   render() {
