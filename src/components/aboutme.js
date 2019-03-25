@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
 import about from './img/me';
-import blov from './img/img';
+import blov from './img/blove';
 
 const bout={
   backgroundImage: `url( ${about} )`,
-  height: '90vh',
+  height: '105vh',
   backgroundSize: 'cover',
 }
 
@@ -35,8 +35,8 @@ class About extends Component {
                 <img
                   src={blov}
                   alt="avatar"
-                  style={{height: '200px', borderRadius: '50%',
-                  width: '190px'}}
+                  style={{height: '290px', borderRadius: '50%',
+                  width: '330px'}}
                   />
               </div>
       </section>
