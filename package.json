@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "http://BaharaJr.github.io/react-portfolio",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-mdl": "^1.11.0",
