@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Background from './img/be';
 
 const blove = {
-  backgroundImage: `url( ${Background} )`,
+  background-image: `url( ${Background} )`,
   height: '9 0vh',
   backgroundSize: 'cover',
 }
