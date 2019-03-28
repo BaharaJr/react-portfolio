@@ -4,7 +4,7 @@ import Background from './img/be';
 
 const blove = {
   background: `url( ${Background} )`,
-  height: '9 0vh',
+  height: '90vh',
   backgroundSize: 'cover',
 }
 
